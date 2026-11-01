@@ -1,15 +1,15 @@
 // Offline support: the app files are stored on the device the first time the app opens.
 // When you upload a new version, change VERSION so phones fetch the new files.
-const VERSION = "reformer-v1";
+const VERSION = "reformer-v2";
 const FILES = [
   "./",
   "index.html",
   "manifest.webmanifest",
-  "lib/three.min.js",
-  "fonts/fonts.css",
-  "fonts/f0.woff2", "fonts/f1.woff2", "fonts/f2.woff2", "fonts/f3.woff2", "fonts/f4.woff2",
-  "fonts/f5.woff2", "fonts/f6.woff2", "fonts/f7.woff2", "fonts/f8.woff2", "fonts/f9.woff2",
-  "icons/icon-192.png", "icons/icon-512.png", "icons/icon-maskable-512.png", "icons/apple-touch-icon.png"
+  "three.min.js",
+  "fonts.css",
+  "f0.woff2", "f1.woff2", "f2.woff2", "f3.woff2", "f4.woff2",
+  "f5.woff2", "f6.woff2", "f7.woff2", "f8.woff2", "f9.woff2",
+  "icon-192.png", "icon-512.png", "icon-maskable-512.png", "apple-touch-icon.png"
 ];
 
 self.addEventListener("install", event => {
